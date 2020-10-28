@@ -3,6 +3,12 @@
 //Complete this algo
 const isLoop = (linkedlist) => {
 
+  if (linkedlist.tail.next === null) {
+    return false
+  } else {
+    return true;
+  }
+
 };
 
 
